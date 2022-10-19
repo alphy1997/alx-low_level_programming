@@ -1,7 +1,6 @@
 #include <stdio.h>
-
 /**
- * main - entry point
+ * main - Entry point
  * Return: Always 0
  */
 int main(void)
@@ -12,7 +11,7 @@ int main(void)
 	while
 		(c <= 'z')
 		{
-			if ((c != 'q' || c != 'e') && c <= 'z')
+			if ((c != 'e' && c != 'q'))
 				putchar(c);
 			c++;
 		}
